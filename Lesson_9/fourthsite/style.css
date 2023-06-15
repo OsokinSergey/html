@@ -74,6 +74,7 @@ margin-top: 92;
     text-align: center;
     color: #666666;
     margin-top: 19px;
+    width: 682px;
 }
 
 .item{
@@ -98,4 +99,8 @@ margin-top: 92;
     text-align: center;
     color: #AAAAAA;
     margin: 22px 30px 39px;
+}
+
+.button_service {
+    margin: 0px 120px 50px 100px;
 }
