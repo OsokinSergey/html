@@ -78,11 +78,24 @@ margin-top: 92;
 
 .item{
     display: grid;
-    align-content: center;
     justify-items: center;
 }
 
-button_service {
+.button_service {
     width: 150px;
     height: 50px;
+}
+
+.title_service{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 25px;
+}
+.text_service{
+    font-size: 15px;
+    line-height:150%;
+    text-align: center;
+    color: #AAAAAA;
+    margin: 22px 30px 39px;
 }
