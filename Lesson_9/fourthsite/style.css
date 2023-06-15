@@ -85,6 +85,10 @@ margin-top: 92;
 .button_service {
     width: 150px;
     height: 50px;
+    background-color: #F25822 ;
+    color:white;
+    border:none;
+    border-radius: 50px;
 }
 
 .title_service{
@@ -99,8 +103,4 @@ margin-top: 92;
     text-align: center;
     color: #AAAAAA;
     margin: 22px 30px 39px;
-}
-
-.button_service {
-    margin: 0px 120px 50px 100px;
 }
