@@ -1,9 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
-.servises {
+.features {
     display: grid;
     gap: 60px;
     align-content: space-evenly;
@@ -13,25 +14,24 @@
     padding-bottom: 125px;
 }
 
-.service {
+.feature {
     display:flex;
-    font-family: sans-serif;
     flex-direction: column;
 }
 
-.service__img {
+.feature__img {
     width: 70px;
     height: 70px;
 }
 
-.title {
+.feature_title {
     font-size: 24px;
     line-height: 28px;
     color: #000000;
     margin-top: 25px;
 }
 
-.service__text {
+.feature__text {
     font-size: 15px;
     line-height: 150%;
     color: #666666;
@@ -39,10 +39,50 @@
     margin-bottom: 25px;
 }
 
-.serivce__link {
+.feature__link {
     font-size: 11px;
     line-height: 150%;
     color: #000000; 
     text-decoration: none;
 }
 
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maintitle {font-size: 45px;
+line-height: 53px;
+color: #000000;
+margin-top: 92;
+}
+
+.servicesItems{
+    display: grid;
+    grid-template-columns: repeat(3,310px);
+    justify-content: center;
+    gap: 30px;
+    margin-top: 55px;
+}
+
+.maintext{
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+    margin-top: 19px;
+}
+
+.item{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+button_service {
+    width: 150px;
+    height: 50px;
+}
