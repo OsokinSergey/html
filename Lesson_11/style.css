@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 1600px;
+    height: 75px;
+    background-color:#222222
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+
+.logo {
+    width: 110px;
+    height: 38px;
+    margin-left: 231px;
+    margin-top:18px;
+}
+
+.search {
+    padding-left: 21px;
+}
