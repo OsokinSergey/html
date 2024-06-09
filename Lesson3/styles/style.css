@@ -1,30 +1,131 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
-.top {
-    padding-bottom: 99px;
+body {
+    background-color: #040c1a;
 }
 
-.top__header {
-    padding-top: 39px;
-    padding-bottom: 39px;
+.header {
+    background-color: #020a18;
 }
 
-.top__content {
+.container {
+    max-width: 1146px;
+    margin: 0 auto;
+}
+
+.header__link {
+    padding: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+}
+
+.header__link:hover {
+    color:#3a6888;
+}
+
+.main__box {
     margin-top: 160px;
-    margin-bottom: 197px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.subtitle {
-    margin-bottom: 10px;
-}
- 
-.title {
-    margin-bottom: 40px;
+.main__subtitle {
+    color: #3a6888;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: uppercase;
+    padding-bottom: 10px;
 }
 
-.top__buttons {
-    margin-top: 50px;
+.main__title {
+    font-family: "roboto",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 130%;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.main__left {
+    max-width: 604px;
+}
+
+.main__dsc {
+    font-family: 'Open Sens', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #878b91;
+    padding-bottom: 50px;
+}
+
+.button__link {
+    font-family: 'Open Sens', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color:#fff;
+    padding: 15px 30px;
+    background: #3a68b8;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+}
+
+.button__link:last-of-type {
+    margin-right: 0px;
+}
+
+.button__link:hover {
+    color:#3A68B8;
+    background-color: transparent;
+    border:1px solid #3A68B8;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button__video {
+    font-family: 'Open Sens', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color:#fff;
+    padding: 15px 30px;
+    background: #3A68B8;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+}
+
+.button__box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.play__pic {
+    padding-right: 20px;
 }
