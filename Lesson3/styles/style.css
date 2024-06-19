@@ -40,6 +40,7 @@ body {
     margin-top: 160px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 197px;
 }
 
 .main__subtitle {
@@ -123,7 +124,6 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 200px;
 }
 
 .button__video svg {
@@ -138,3 +138,4 @@ body {
 .button__video:hover svg path {
     fill:#3A68B8;
 }
+
