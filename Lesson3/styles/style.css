@@ -83,16 +83,13 @@ body {
     font-weight: 600;
     font-size: 20px;
     line-height: 27px;
-    color:#fff;
     padding: 15px 30px;
     background: #3a68b8;
     border-radius: 5px;
     margin-right: 20px;
     border: 1px solid transparent;
-}
-
-.button__link:last-of-type {
-    margin-right: 0px;
+    cursor:pointer;
+    color:white;
 }
 
 .button__link:hover {
@@ -107,6 +104,7 @@ body {
 }
 
 .button__video {
+    display: flex;
     font-family: 'Open Sens', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -118,14 +116,25 @@ body {
     border-radius: 5px;
     margin-right: 20px;
     border: 1px solid transparent;
+    cursor: pointer;
 }
 
 .button__box {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 200px;
 }
 
-.play__pic {
-    padding-right: 20px;
+.button__video svg {
+    padding-right: 10px;
+}
+
+.button__video:hover {
+    color:#3A68B8;
+    background-color: transparent;
+    border:1px solid #3A68B8;
+}
+.button__video:hover svg path {
+    fill:#3A68B8;
 }
