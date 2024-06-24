@@ -148,7 +148,7 @@ body {
     margin-top: 157px;
     display: flex;
     justify-content: space-between;
-
+    margin-bottom: 264px;
 }
 
 .ai__title {
@@ -189,6 +189,44 @@ body {
     font-size: 16px;
     line-height: 22px;
     color: #fff;
+}
 
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 362px);
+    grid-template-rows: repeat(3, 362px);
+    gap: 32px;
+    justify-content: center;
+  }
+
+  .item {
+    background: #132035;
+    border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+}
+
+.heading {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFF;
+    opacity: 0.7;
+}
+
+.item__text {
+    opacity: 0.7;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFF;
 
 }
