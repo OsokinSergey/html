@@ -19,7 +19,7 @@ body {
 .heading {
     font-style: normal;
     font-weight: 700;
-    font-size: 25 px;
+    font-size: 25px;
     line-height: 125%;
     text-align: center;
     color: #FFF;
@@ -28,7 +28,7 @@ body {
 .item__text {
     font-style: normal;
     font-weight: 600;
-    font-size: 16 px;
+    font-size: 16px;
     line-height: 160%;
     text-align: center;
     color: #FFF;
@@ -37,7 +37,7 @@ body {
 .content {
     display: grid;
     grid-template-columns: repeat(3, 362px);
-    grid-template-rows: repeat(3, 362px);
+    grid-template-rows: repeat(3, 389px);
     gap: 32px;
     justify-content: center;
   }
