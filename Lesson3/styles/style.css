@@ -319,3 +319,8 @@ body {
 .footer__img {
     padding-right: 6px;
 }
+
+.footer__link{
+gap: 24px;
+display: flex;
+}
