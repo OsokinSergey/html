@@ -6,6 +6,7 @@
 
 body {
     background-color: #040c1a;
+    font-family: 'Open Sans';
 }
 
 .header {
@@ -19,7 +20,6 @@ body {
 
 .header__link {
     padding: 40px;
-    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -46,7 +46,6 @@ body {
 
 .main__subtitle {
     color: #3a6888;
-    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -56,9 +55,8 @@ body {
 }
 
 .main__title {
-    font-family: "roboto", sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 55px;
     line-height: 130%;
     color: #fff;
@@ -70,7 +68,6 @@ body {
 }
 
 .main__dsc {
-    font-family: 'Open Sens', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -80,7 +77,6 @@ body {
 }
 
 .button__link {
-    font-family: 'Open Sens', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -107,7 +103,6 @@ body {
 
 .button__video {
     display: flex;
-    font-family: 'Open Sens', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -153,13 +148,13 @@ body {
 }
 
 .ai__title {
-    font-family: "Open Sans", sans-serif;
-    font-style: bold;
-    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
     font-size: 40px;
+    font-weight: 700;
     line-height: 130%;
-    color: #fff;
-    padding-bottom: 40px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .ai__right {
@@ -167,7 +162,7 @@ body {
 }
 
 .ai__dsc {
-    font-family: 'Open Sens', sans-serif;
+
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -184,7 +179,7 @@ body {
     background: rgb(58, 104, 184);
     width: 150px;
     height: 52px;
-    font-family: 'Open Sens', sans-serif;
+
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -211,7 +206,7 @@ body {
 }
 
 .heading {
-    font-family: "Open Sans", sans-serif;
+
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
@@ -223,7 +218,6 @@ body {
 
 .item__text {
     opacity: 0.7;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -246,7 +240,6 @@ body {
 
 .client__dsc {
     color: rgb(255, 255, 255);
-    font-family: 'Open Sens', sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 160%;
@@ -259,7 +252,6 @@ body {
 
 .client__title {
     color: rgb(255, 255, 255);
-    font-family: 'Open Sens', sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 130%;
@@ -282,7 +274,6 @@ body {
 
 .footer__subtitle {
     color: rgb(255, 255, 255);
-    font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -293,26 +284,24 @@ body {
 
 .footer__text {
     color: rgb(255, 255, 255);
-    font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0%;
     text-align: left;
     margin-bottom: 24px;
-    width:261px;
+    width: 261px;
 }
 
 .footer__middle {
     color: rgb(255, 255, 255);
-    font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 250;
     line-height: 16px;
     letter-spacing: 0%;
     text-align: left;
     opacity: 0.6;
-    width:261px;
+    width: 261px;
     font-style: italic;
 }
 
@@ -320,7 +309,7 @@ body {
     padding-right: 6px;
 }
 
-.footer__link{
-gap: 24px;
-display: flex;
+.footer__link {
+    gap: 24px;
+    display: flex;
 }
